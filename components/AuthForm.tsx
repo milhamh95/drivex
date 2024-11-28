@@ -18,7 +18,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { createAccount, signInUser } from "@/lib/actions/user.action";
-import { OtpModal } from "./OTPModal";
+import OtpModal from "./OTPModal";
 
 type FormType = "sign-in" | "sign-up";
 
